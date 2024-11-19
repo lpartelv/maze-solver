@@ -58,7 +58,7 @@ class Cell:
 
         fill_color = "red"
         if undo:
-            fill_color = "grey"
+            fill_color = "gray"
         
         line = Line(Point(x_center, y_center), Point(x_center2, y_center2))
         self._win.draw_line(line, fill_color=fill_color)

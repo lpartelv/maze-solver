@@ -35,6 +35,7 @@ class Tests(unittest.TestCase):
             for col in m1._cells:
                  for cell in col:
                       self.assertEqual(cell.visited, False)
+    
 
 
 if __name__ == "__main__":
